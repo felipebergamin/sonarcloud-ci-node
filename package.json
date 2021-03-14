@@ -1,0 +1,13 @@
+{
+  "name": "sonarcloud-ci-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/app"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
